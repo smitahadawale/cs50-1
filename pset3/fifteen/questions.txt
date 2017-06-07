@@ -1,0 +1,4 @@
+0. Any dimension d * d such that d >= DIM_MIN and d <= DIM_MAX as defined in fifteen.c
+1. 2D integer array.
+2. greet()
+3. init(),draw(),move(),won()

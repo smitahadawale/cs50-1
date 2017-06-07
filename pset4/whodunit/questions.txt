@@ -1,0 +1,12 @@
+1. stdint.h is library which contains new integer types (fixed width, least, fastest etc
+2.  they are used in programs where bits represent some entity like pixels. So no. of bits shouldnt change .
+3.  BYTE - 1, DWORD - 4 , LONG - 4, WORD - 2 
+4.  bfType ie file type
+5.  bfSize - Size of bitmap FILE  biSize - Size of bitmap image or structure
+6.  if biHeight is negative then bitmap is topdown and its origin is the upper-left corner
+7.  biBitCount
+8.  File might not exist or if it exists it must be protected and cant be accessed.
+9.  That is no. of members we are reading. Here each file will have only one BITMAPFILEHEADER OR BITMAPINFOHEADER. SO 1.
+10. 3
+11. fseek() skips the padding bits by offsetting them.
+12. SEEK_CUR is current position in file where writing / reading is being performed
