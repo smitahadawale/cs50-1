@@ -1,0 +1,11 @@
+0.  lung disease
+1.  gets resource usage
+2.  16
+3.  because it is a structure
+4.  dictionary contains words with only apostrophes and  alphabets.
+    So our for loop stops when it doesnt get any of the above and finishes the word.
+    If it gets a number , it skips that word and starts a new word after finishing reading that word.
+5.  fscanf will read whole word . eg. Rabbit-Hole will be read as it is by fscanf and since not in dictionary
+    will return false. But fgetc will enable us to format out symbols and separate Rabbit and Hole into two words which are present 
+    in dictionary .
+6.  to notify that the passed parameter ( dict. or word) will not be modified by the function.
