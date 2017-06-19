@@ -42,7 +42,7 @@ int main(void)
         
     }
     int valid = 0;
-   
+  
     if(cnt == 15)
     {
         if((first == 3 && sec == 4) || (first == 3 && sec == 7))
